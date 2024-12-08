@@ -60,10 +60,10 @@ pytesseract==0.3.10
 
 ## Como Executar
 
-O código principal está no arquivo `detectar_placa.py`. Para rodar o projeto, certifique-se de que há imagens na pasta `deteccao-placas/images` e execute o comando:
+O código principal está no arquivo `main.py`. Para rodar o projeto, certifique-se de que há imagens na pasta `deteccao-placas/images` e execute o comando:
 
 ```bash
-python detectar_placa.py
+python main.py
 ```
 
 O script irá processar todas as imagens da pasta e exibir os resultados.
@@ -72,7 +72,7 @@ O script irá processar todas as imagens da pasta e exibir os resultados.
 
 ```plaintext
 /
-├── detectar_placa.py             # Código principal do projeto
+├── main.py             # Código principal do projeto
 ├── processar_imagem.py           # Processamento de imagem (pré-processamento)
 ├── processar_contornos.py        # Extração de contornos
 ├── aplicar_ocr.py                # Aplicação de OCR
