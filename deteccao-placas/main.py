@@ -28,7 +28,7 @@ def detectar_placa(imagem_path):
 
 
 if __name__ == "__main__":
-    pasta_imagens = "deteccao-placas/images/img3.jpg"
+    pasta_imagens = "deteccao-placas/images/img1.png"
     lista_imagens = os.listdir(pasta_imagens)
 
     for imagem_file in lista_imagens:
